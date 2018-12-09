@@ -52,7 +52,7 @@
   #categoriesLabel{display:block;margin:10px auto}
   #categories label{width:100px;display:inline-block;vertical-align: middle;}
   #categories input{left: 20px;vertical-align:middle;}
- .main-wrapper{width:600px;margin: 60px auto;background:rgba(0,0,0,0.5);padding:50px;text-align:center;border-radius: 20px;}
+ .main-wrapper{width:600px;margin: 60px auto;background:rgba(0,0,0,0.5);padding:10px;text-align:center;border-radius: 20px;}
  .nav-bar{:margin:0px auto auto; display:block; text-align: center;position:fixed;background-color: darkSlateGrey;width:100%;padding:0;top:0}
  .nav-bar::after{content: "";
     clear: both;
@@ -73,7 +73,7 @@ ul {list-style-type:none;line-height: 2em;}
  .intention{width:100%;margin:20px auto;padding:10px;background:rgba(0,0,0,0.6);text-align:center;box-sizing: border-box;border-radius: 20px;}
  .header{width:100%; margin:50px auto 10px auto;box-sizing: border-box;text-align: center;}
  .header-intention{width:100%; margin:10px auto;box-sizing: border-box;text-align: center;display:flex;justify-content:space-between;align-items:center;}
- .user-top{width:100%; margin:0px auto; background:rgba(0,0,0,0.3);padding: 20px;
+ .user-top{width:100%; margin:10px auto; line-height:1.5em; background:rgba(0,0,0,0.3);padding: 10px;
  box-sizing: border-box;text-align: center;border-radius: 20px;}
  .post{width:100%; margin:0px auto; background:rgba(0,50,50,0.8);padding: 20px;
  box-sizing: border-box;text-align: center;border-radius: 20px;}
@@ -106,3 +106,5 @@ input[type=submit] {
   color: peachPuff;
   margin: 10px;
 }
+h2 {margin-bottom:0.5em;padding:1px;}
+h1 {margin:5px; padding:5px;}
